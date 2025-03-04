@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,8 +19,21 @@ function App() {
           Learn React
         </a>
       </header>
+=======
+import React from 'react';
+import ProductList from './ProductList';
+
+const App = () => {
+  return (
+    <div className="App">
+      <ProductList />
+>>>>>>> 59e6ddc (Primer commit: Creación del backend con Express y MongoDB)
     </div>
   );
 }
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> 59e6ddc (Primer commit: Creación del backend con Express y MongoDB)
